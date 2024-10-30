@@ -34,7 +34,7 @@ Example
 bash
 
 python password_hacker.py 127.0.0.1 8080
-How It Works
+### How It Works
 The program reads a list of potential logins from a file called logins.txt.
 It attempts to find a valid login by sending a predefined password to the server.
 Once a valid login is found, it proceeds to find the corresponding password by sending various character combinations and measuring the response time from the server.
